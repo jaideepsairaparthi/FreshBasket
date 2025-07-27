@@ -19,7 +19,7 @@ await connectDB()
 await connectCloudinary()
  
 //allowed-origins 
-const allowedOrigins = ['http://localhost:5173', "https://fresh-basket-five.vercel.app"]
+const allowedOrigins = ['http://localhost:5173', "https://fresh-basket-five.vercel.app","https://fresh-basket-m70bomw07-jaideepsai.vercel.app","https://fresh-basket-git-main-jaideepsai.vercel.app","https://fresh-basket-m70bomw07-jaideepsai.vercel.app"]
 
 //webhooks for isPaid or not
 // app.post('/stripe' , express.raw({type : "application/json"}),stripeWebhooks)
